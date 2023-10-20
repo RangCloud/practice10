@@ -16,15 +16,35 @@ body{
 }
 
 .leftBox{
-    width: 30vw;
+    width: 20vw;
     height: 40vh;
     color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
+.leftBox p{
+    font-size: 10px;
+}
 
 .rightBox{
-    width: 30vw;
+    width: 20vw;
     height: 40vh;
+}
+
+.topBox{
+    background-color: hsl(248, 32%, 49%);
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    color: white;
+}
+.topBox span{
+    opacity: 0.7;
+}
+
+.bottomBox{
+    background-color: white;
+    border: none;
+    border-radius: 5px;
 }
