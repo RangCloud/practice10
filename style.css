@@ -8,5 +8,20 @@ body{
 }
 
 .bigBox{
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+.leftBox{
+    width: 30vw;
+    height: 40vh;
+    color: white;
+}
+
+.rightBox{
+    width: 30vw;
+    height: 40vh;
 }
