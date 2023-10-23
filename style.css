@@ -51,6 +51,7 @@ body{
 }
 
 .bottomBox{
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -90,4 +91,31 @@ input::placeholder{
     box-shadow: 0px 5px 3px -3px green;
     width: auto;
     height: 40px;
+}
+.errorIcon1{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 10%;
+    top: 14%;
+}
+.errorIcon2{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 10%;
+    top: 31%;
+}
+.errorIcon3{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 10%;
+}
+.errorIcon4{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 10%;
+    top: 63.5%;
 }
