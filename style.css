@@ -119,3 +119,10 @@ input::placeholder{
     right: 10%;
     top: 63.5%;
 }
+.error-m{
+    display: none;
+}
+.error-email{
+    position: absolute;
+    font-size: 11px;
+}
